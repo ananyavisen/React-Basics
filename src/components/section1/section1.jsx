@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from './Navbar'
+import Page1Content from './Page1Content'
+
 
 const section1 = () => {
   return (
-    <div className='h-screen w-full bg-blue-950'>Section 1
+    <div>
+      <Navbar />
+      <Page1Content />
     </div>
   )
 }
