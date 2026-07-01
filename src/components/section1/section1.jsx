@@ -3,11 +3,11 @@ import Navbar from './Navbar'
 import Page1Content from './Page1Content'
 
 
-const section1 = () => {
+const section1 = (props) => {
   return (
     <div>
       <Navbar />
-      <Page1Content />
+      <Page1Content users={props.users} />
     </div>
   )
 }
